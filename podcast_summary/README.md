@@ -48,7 +48,6 @@ Installing Airflow can be tricky - see the documentation here.  We recommend fol
 
 We'll download the data we need during this project, including a language model for vosk, and podcast episodes.  If you want to view the podcast metadata page, it is [here](https://www.marketplace.org/feed/podcast/marketplace/).
 
-
 ## Instalação
 
 ### instalar python e pip
@@ -56,11 +55,8 @@ We'll download the data we need during this project, including a language model 
 sudo apt install python3 python3-pip python3-venv
 ```
 
-### Criar ambiente virual python3
-```
-python3 -m venv meu_ambiente_virtual
-source meu_ambiente_virtual/bin/activate
-```
+# Instalação das bibliotecas necessárias:
+Utilizando o ambiente virtual orientado no README.md na raiz do projeto, instale as seguintes bibliotecas.
 
 ### Instalar airflow
 ```
@@ -76,13 +72,3 @@ CONSTRAINT_URL="https://raw.githubusercontent.com/apache/airflow/constraints-${A
 pip install "apache-airflow==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}"
 ```
 
-### instalar bibliotecas python
-```
-pip install pandas xmltodict requests vosk pydub pysqlite3
-```
-
-###
-```
-pip install ffmpeg
-
-```
