@@ -1,3 +1,6 @@
+"""
+Programa para fazer recomendações de filmes baseado em uma indicação
+"""
 import re
 import pandas as pd
 import numpy as np
@@ -7,14 +10,20 @@ import ipywidgets as widgets
 from IPython.display import display
 
 
-# re.sub("[^a-zA-Z0-9 ]", "", title), remove todos os caracteres
-# que não são letras, dígitos ou espaços em branco da variável title.
 def clean_title(title):
+    """
+    Limpeza de dados
+    Remove todos os caracteres que não são:
+    letras, dígitos ou espaços em branco da variável title.
+    """
+
     title = re.sub("[^a-zA-Z0-9 ]", "", title)
     return title
 
 
 def search(title):
+    """Busca o indice do titulo do base em tfidf"""
+
     title = clean_title(title)
     query_vec = vectorizer.transform([title])
     similarity = cosine_similarity(query_vec, tfidf).flatten()
@@ -25,6 +34,8 @@ def search(title):
 
 
 def find_similar_movies(movie_id):
+    """Busca de títulos de filmes similares ao valor atribuido na chamada de função"""
+
     similar_users = ratings[(ratings["movieId"] == movie_id) &
                             (ratings["rating"] > 4)]["userId"].unique()
     similar_user_recs = ratings[(ratings["userId"].isin(similar_users)) &
@@ -47,6 +58,9 @@ def find_similar_movies(movie_id):
 
 
 def on_type(data):
+    """
+    Teste
+    """
     with recommendation_list:
         recommendation_list.clear_output()
         title = data["new"]
