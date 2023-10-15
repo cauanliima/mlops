@@ -27,6 +27,11 @@ source meu_ambiente_virtual/bin/activate
 ./meu_ambiente_virtual/bin/autopep8 --in-place --aggressive --aggressive meu-codigo.py
 ```
 
+### Score de código com o pylint
+```
+./meu_ambiente_virtual/bin/pylint meu-codigo.py
+```
+
 ### Utilização pylint para analise de código
 ```
 ./meu_ambiente_virtual/bin/pylint meu-codigo.py
