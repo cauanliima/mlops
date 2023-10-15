@@ -1,12 +1,22 @@
-# Ambiente virtual
+# MLOPS
+## Projeto de recomendação de vídeo
+Sistema de recomendação de filme com base em uma indicação do usuário
+
+Baseado em: [DataQuest-Tutorial](https://app.dataquest.io/c/93/m/99994/build-a-movie-recommendation-system-in-python)
+
+## projeto de sumarização de podcast
+Sistema de reconhecimento e resumo de fala que pode ser usado para transcrever automaticamente arquivos de áudio, como notas de aula, podcasts ou vídeos, e transformá-los em um breve resumo.
+
+Baseado em: [DataQuest-Tutorial](https://app.dataquest.io/c/93/m/99995/build-a-speech-recognition-and-summarization-system)
+
+
+## Instalação de ambiente virtual python
 Para instalar as biblitecas utilizadas crie um ambiente virtual python
 ```
 pip install virtualenv
 python3 -m venv meu_ambiente_virtual
 source meu_ambiente_virtual/bin/activate
 ```
-
-# Processo de melhoria de código
 
 ### Instale as bibliotecas necessárias
 ```
