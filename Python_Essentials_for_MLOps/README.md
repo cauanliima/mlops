@@ -1,12 +1,12 @@
-## Projeto de recomendação de vídeo
+## [Recomendação de vídeo](Python_Essentials_for_MLOps/movie_recommendations)
 Sistema de recomendação de filme com base em uma indicação do usuário
 
-Baseado em: [DataQuest-Tutorial](https://app.dataquest.io/c/93/m/99994/build-a-movie-recommendation-system-in-python)
+Baseado em: [DataQuest-Build a Movie Recommendation System in Python](https://app.dataquest.io/c/93/m/99994/build-a-movie-recommendation-system-in-python)
 
-## Projeto de sumarização de podcast
+## [Sumarização de Podcast](Python_Essentials_for_MLOps/podcast_summary)
 Sistema de reconhecimento e resumo de fala que pode ser usado para transcrever automaticamente arquivos de áudio, como notas de aula, podcasts ou vídeos, e transformá-los em um breve resumo.
 
-Baseado em: [DataQuest-Tutorial](https://app.dataquest.io/c/93/m/99995/build-a-speech-recognition-and-summarization-system)
+Baseado em: [DataQuest-Build a Speech Recognition and Summarization System](https://app.dataquest.io/c/93/m/99995/build-a-speech-recognition-and-summarization-system)
 
 ## [Vídeo explicativo](https://example.com)
 
