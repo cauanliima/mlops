@@ -9,7 +9,6 @@ Sistema de reconhecimento e resumo de fala que pode ser usado para transcrever a
 
 Baseado em: [DataQuest-Tutorial](https://app.dataquest.io/c/93/m/99995/build-a-speech-recognition-and-summarization-system)
 
-
 ## Instalação de ambiente virtual python
 Para instalar as biblitecas utilizadas crie um ambiente virtual python
 ```
