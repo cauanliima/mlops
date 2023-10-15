@@ -31,3 +31,13 @@ source meu_ambiente_virtual/bin/activate
 ```
 ./meu_ambiente_virtual/bin/pylint meu-codigo.py
 ```
+
+| Reference                                                     | Link                                                                                           |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| :man: Teacher Ivanovitch                                      | [GIthub](https://github.com/ivanovitchm/mlops)         |
+| :books: Github MLOPS - Teacher                                | [Practical MLOps](https://www.oreilly.com/library/view/practical-mlops/9781098103002/)         |
+| :books: Chip Huyen                                            | [Designing ML Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/)                                          |
+| :books: Jason Brownlee                                        | [Deep Learning for NLP](https://machinelearningmastery.com/deep-learning-for-nlp/)            |
+| :bomb: ChatGPT                                                | [OpenAI Chat](https://chat.openai.com/chat)                                                   |
+| :smiley: CS329S - ML Systems Design                           | [Stanford's MLOps course](https://stanford-cs329s.github.io/syllabus.html)                    |
+| :dart: Machine Learning Operations                            | [MLOps Community](https://ml-ops.org/)                                                        |
