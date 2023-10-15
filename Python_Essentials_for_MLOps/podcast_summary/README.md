@@ -50,11 +50,6 @@ We'll download the data we need during this project, including a language model 
 
 ## Instalação
 
-### instalar python e pip
-```
-sudo apt install python3 python3-pip python3-venv
-```
-
 # Instalação das bibliotecas necessárias:
 Utilizando o ambiente virtual orientado no README.md na raiz do projeto, instale as seguintes bibliotecas.
 
@@ -71,4 +66,3 @@ CONSTRAINT_URL="https://raw.githubusercontent.com/apache/airflow/constraints-${A
 
 pip install "apache-airflow==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}"
 ```
-
